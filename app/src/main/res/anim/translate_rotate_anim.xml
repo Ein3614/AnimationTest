@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator = "@android:anim/linear_interpolator"
+    android:shareInterpolator="true"
+    android:fillAfter="true">
+    <translate
+        android:duration = "1000"
+        android:fromXDelta="0"
+        android:toXDelta="100"
+        android:fromYDelta="0"
+        android:toYDelta="-100"/>
+    <rotate
+        android:duration = "4000"
+        android:fromDegrees="0"
+        android:toDegrees="90"
+        android:pivotX="200"
+        android:pivotY="200"/>
+</set>
